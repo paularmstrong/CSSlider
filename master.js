@@ -55,7 +55,7 @@ var SS = function () {
                 str += '<ol>'
             }
 
-            str += '<li><a href="#!/section/' + index + '/slide/' + subindex + '">' + subhead + '</a></li>'
+            str += '<li><a href="#!/section/' + index + '/slide/' + (subindex + 1) + '">' + subhead + '</a></li>'
 
             if (subindex + 1 === subs.length) {
                 str += '</ol>'
