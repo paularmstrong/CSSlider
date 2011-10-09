@@ -1,0 +1,143 @@
+<!doctype html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <title>CSSlider</title>
+
+    <meta name="viewport" content="initial-scale=1.0 maximum-scale=1.0 minimum-scale=1.0 user-scalable=no">
+
+    <link rel="stylesheet" href="styles.css" media="all">
+    <script src="underscore.js"></script>
+    <script src="master.js"></script>
+</head>
+<body>
+
+    <header>
+        <hgroup>
+            <h1>CSSlider</h1>
+            <h2>Paul Armstrong</h2>
+        </hgroup>
+    </header>
+
+    <article>
+        <header>
+            <hgroup>
+                <h1>Keyboard Control</h1>
+                <h2>Obvious Commands</h2>
+            </hgroup>
+        </header>
+        <section>
+            <h1>Basic Navigation</h1>
+            <dl>
+                <dt>Next Slide</dt>
+                <dd><kbd>&rarr;</kbd></dd>
+                <dd><kbd>&darr;</kbd></dd>
+
+                <dt>Previous Slide</dt>
+                <dd><kbd>&larr;</kbd></dd>
+                <dd><kbd>&uarr;</kbd></dd>
+
+                <dt>Next Section</dt>
+                <dd><kbd>n</kbd></dd>
+
+                <dt>Previous Section</dt>
+                <dd><kbd>p</kbd></dd>
+            </dl>
+        </section>
+        <section>
+            <h1>Advanced Navigation</h1>
+
+            <dl>
+                <dt>First Slide</dt>
+                <dd><kbd>s</kbd></dd>
+
+                <dt>Last Slide</dt>
+                <dd><kbd>e</kbd></dd>
+
+                <dt>Table of Contents</dt>
+                <dd><kbd>t</kbd></dd>
+
+                <dt>Go To Slide</dt>
+                <dd><kbd>g</kbd></dd>
+
+                <dt>Close Modal</dt>
+                <dd><kbd>ESC</kbd></dd>
+            </dl>
+        </section>
+    </article>
+
+    <article>
+        <header>
+            <hgroup>
+                <h1>Browser Support</h1>
+            </hgroup>
+
+            <ul>
+                <li>Safari</li>
+                <li>Chrome</li>
+                <li>Firefox</li>
+                <li>Opera</li>
+                <li>IE 9+</li>
+            </ul>
+        </header>
+    </article>
+
+    <article>
+        <header>
+            <h1>Semantic HTML</h1>
+        </header>
+        <section>
+            <h1>First Slide</h1>
+
+            <pre>&lt;header&gt;
+    &lt;hgroup&gt;
+        &lt;h1&gt;CSSlider&lt;/h1&gt;
+        &lt;h2&gt;Paul Armstrong&lt;/h2&gt;
+    &lt;/hgroup&gt;
+&lt;/header&gt;</pre>
+        </section>
+
+        <section>
+            <h1>Section &amp; Slide</h1>
+
+            <pre>&lt;article&gt; &lt;!-- new section: article is self-contained --&gt;
+
+    &lt;!-- first section slide --&gt;
+    &lt;header&gt;
+        &lt;hgroup&gt;
+            &lt;h1&gt;Section Title&lt;/h1&gt;
+        &lt;/hgroup&gt;
+    &lt;/header&gt;
+
+    &lt;!-- sub-section slides are &quot;sections&quot; --&gt;
+    &lt;section&gt;
+        &lt;h1&gt;Slide Title&lt;/h1&gt;
+        &lt;!-- content --&gt;
+    &lt;/section&gt;
+
+    &lt;section&gt;
+        &lt;h1&gt;Another Slide&lt;/h1&gt;
+        &lt;!-- content --&gt;
+    &lt;/section&gt;
+&lt;/article></pre>
+        </section>
+
+        <section>
+            <h1>Last Slide</h1>
+
+            <pre>&lt;footer&gt;
+    &lt;section&gt;
+        &lt;h1&gt;The End&lt;/h1&gt;
+    &lt;/section&gt;
+&lt;/footer&gt;</pre>
+        </section>
+    </article>
+
+    <footer>
+        <section>
+            <h1>The End</h1>
+        </section>
+    </footer>
+
+</body>
+</html>
